@@ -3,15 +3,24 @@ This notebook presents 2 notebooks with models generated from sklearn and imbala
 
 ## Installation
 This project was programmed with Python 3 in Anaconda enviroment, and requests the following installation:
+
   • [Anaconda for Windows](https://docs.anaconda.com/anaconda/install/windows/)
+  
   • [Anaconda for Linux](https://docs.anaconda.com/anaconda/install/linux/)
+  
   • [Anaconda for macOS](https://docs.anaconda.com/anaconda/install/mac-os/)
+  
 Libraries:
   • [Pandas](https://pandas.pydata.org/docs/getting_started/install.html)
+  
   • [NumPy](https://numpy.org/install/)
+  
   • [Matplotlib](https://matplotlib.org/stable/users/installing/index.html)
+  
   • [Seaborn](https://seaborn.pydata.org/installing.html)
+  
   • [Scikit-learn](https://scikit-learn.org/stable/install.html)
+  
   • [Imblearn](https://imbalanced-learn.org/stable/install.html)
 
 ## Data
