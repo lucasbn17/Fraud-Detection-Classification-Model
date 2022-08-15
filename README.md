@@ -49,6 +49,8 @@ isFraud - ÉFraud: flag that defines whether the transaction is fraudulent or no
 
 isFlaggedFraud - FlaggedAsFraud: automatically flagged by the bank as fraud for trying to transfer more than 200,000 in a single transaction.
 
+Database link [here](https://drive.google.com/file/d/1zjK8zQK5zvhR_r2chWI5dCjeOwASlPfb/view?usp=sharing)
+
 ## Tips for issues
 A good option is to run this notebook using "jupyter notebook --NotebookApp.iopub_data_rate_limit=1.0e10" in Anaconda's prompt due to high memory usage.
 
