@@ -11,6 +11,7 @@ This project was programmed with Python 3 in Anaconda enviroment, and requests t
   • [Anaconda for macOS](https://docs.anaconda.com/anaconda/install/mac-os/)
   
 Libraries:
+
   • [Pandas](https://pandas.pydata.org/docs/getting_started/install.html)
   
   • [NumPy](https://numpy.org/install/)
