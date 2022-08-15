@@ -2,7 +2,7 @@
 This notebook presents 2 notebooks with models generated from sklearn and imbalance learn libraries, and compares them in order to rank the best models according to their ability to identify whether a bank transaction is fraudulent. The first notebook ran with default maximum iteration of 100 and the second notebook ran with maximum iteration of 5000.
 
 ## Installation
-This project was programmed with Python 3 in Anaconda enviroment, and requests the following installation:
+This project was programmed with Python 3 via Jupyter Notebook in Anaconda enviroment, and requests the following installation:
 
   • [Anaconda for Windows](https://docs.anaconda.com/anaconda/install/windows/)
   
@@ -48,3 +48,10 @@ newbalanceDest - SaldoFinalDestino: balance of the destination account after the
 isFraud - ÉFraud: flag that defines whether the transaction is fraudulent or not. In this simulation, the purpose of the fraud is to take over the user's account, empty it by transferring it to another account, and then withdraw the money.
 
 isFlaggedFraud - FlaggedAsFraud: automatically flagged by the bank as fraud for trying to transfer more than 200,000 in a single transaction.
+
+## Tips for issues
+A good option is to run this notebook using "jupyter notebook --NotebookApp.iopub_data_rate_limit=1.0e10" in Anaconda's prompt due to high memory usage.
+
+For logisticregression() function the parameter max_iter can return a message of "ITERATIONS REACHED LIMIT". If this happens, increasing the parameter max_iter will remove the message, but it does not necessarilly mean you will be able to perform a better model, so be careful with the computational cost.
+
+The variable y_train can return a message of "a column-vector y was passed when a 1d array was expected", this message can be removed after a np.ravel() function be applied to the variable, like "done in file "Fraud Detection - Classification Model (max_iter=5000).ipynb".
